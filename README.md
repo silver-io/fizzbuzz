@@ -1,9 +1,12 @@
-## FizzBuzz Kata
+### FizzBuzz
 ------
 
-### Objectives
+#### Objectives
 
 Introduction to Test Driven Development using Ruby and Rspec.
 
-### How to use it
+#### How to use it
+
+
+
 

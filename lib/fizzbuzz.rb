@@ -14,9 +14,17 @@ def is_divisible_by_five?(number)
 end
 
 def is_divisible_by_fifteen?(number)
-	is_divisible_by?(number, 15)	
+	is_divisible_by?(number, 15)
 end
 
 def is_divisible_by?(number, divisor)
 	number % divisor == 0
 end
+
+puts "first number?"
+start = gets.chomp.to_i
+
+puts "last number?"
+finish = gets.chomp.to_i
+
+(start..finish).each { |number| puts fizzbuzz(number) }
