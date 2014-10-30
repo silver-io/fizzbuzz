@@ -21,6 +21,7 @@ def is_divisible_by?(number, divisor)
 	number % divisor == 0
 end
 
+if __FILE__==$0
 puts "first number?"
 start = gets.chomp.to_i
 
@@ -28,3 +29,4 @@ puts "last number?"
 finish = gets.chomp.to_i
 
 (start..finish).each { |number| puts fizzbuzz(number) }
+end

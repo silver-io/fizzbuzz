@@ -18,3 +18,10 @@ $ cd fizzbuzz
 $ ruby lib/fizzbuzz.rb
 ```
 Follow the instructions when prompted and provide the first and last number to print.
+
+#### How to run the tests
+
+```shell
+$ cd fizzbuzz
+$ rspec
+```

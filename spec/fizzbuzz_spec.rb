@@ -1,9 +1,9 @@
-require "fizzbuzz"
+require "fizzbuzz.rb"
 
 describe 'FizzBuzz' do
 
 	context "should be divisible by" do
-		it '3' do 
+		it '3' do
 			expect(is_divisible_by_three?(3)).to be true
 		end
 		it '5' do
